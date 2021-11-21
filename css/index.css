@@ -117,6 +117,10 @@ h1{
     color: #8d8d8d;
 }
 
+.white {
+    color: #FFF;
+}
+
 .p-2 {
     padding: 2vmin;
 }
@@ -277,4 +281,22 @@ img {
 
 .producto img {
     height: 50%;
+}
+
+/* Sección de pasos */
+.pasos {
+    background: #bdcfe4;
+}
+
+.proceso-img {
+    margin-top: 2vmin;
+}
+
+.proceso {
+    display: flex;
+    justify-content: space-between;
+}
+
+.paso {
+    width: 20%;
 }
