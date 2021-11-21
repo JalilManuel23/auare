@@ -1,0 +1,223 @@
+/* Estilos generales */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "ChronicaRegular";
+    src: url("../Fonts/ChronicaPro-Regular.ttf");
+}
+
+@font-face {
+    font-family: "ChronicaBold";
+    src: url("../Fonts/ChronicaPro-Bold\ \(1\).ttf");
+}
+
+@font-face {
+    font-family: "ChronicaThin";
+    src: url("../Fonts/ChronicaPro-Thin\ \(1\).ttf");
+}
+
+@font-face {
+    font-family: "FixtureBold";
+    src: url("../Fonts/Fixture-Bold.ttf");
+}
+
+@font-face {
+    font-family: "FixtureExpandedSemiBold";
+    src: url("../Fonts/Fixture-ExpandedSemiBold.ttf");
+}
+
+@font-face {
+    font-family: "FixtureExpandedRegular";
+    src: url("../Fonts/Fixture-ExpandedRegular.ttf");
+}
+
+@font-face {
+    font-family: "FixtureExpandedThin";
+    src: url("../Fonts/Fixture-ExpandedThin.ttf");
+}
+
+@font-face {
+    font-family: "MyriadPro-Regular";
+    src: url("../Fonts/MyriadPro-Regular.otf");
+}
+/* Fuentes */
+.f-chr-bold {
+    font-family: 'ChronicaBold';
+}
+
+.f-chr-thin {
+    font-family: 'ChronicaThin';
+}
+
+.f-fix-thin {
+    font-family: 'FixtureExpandedThin';
+}
+
+.f-my {
+    font-family: 'MyriadPro-Regular';
+}
+
+/* Tamaños */
+.small {
+    font-size: small;
+}
+
+.medium {
+    font-size: medium;
+}
+
+.xlarge {
+    font-size: 4vmin;
+}
+
+.vlarge {
+    font-size: 20vmin;
+    font-weight: 100;
+}
+
+.menu-icon {
+    height: 15px;
+}
+
+/* Colores */
+.blue-1 {
+    color: #2e47ae;
+}
+
+.blue-2 {
+    color: #0033d3;
+}
+
+.p-tb-s {
+    padding: 0.5rem 0;
+}
+
+a {
+    text-decoration: none;
+    color: #2e47ae;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* Utilidades */
+.container {
+    max-width: 1080px;
+    width: 80%;
+    margin: auto;
+}
+
+.bar-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    padding-top: 10vh;
+}
+
+.bar-menu li {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.bar-menu li:first-of-type {
+    justify-content: flex-start;
+}
+
+.bar-menu li:last-of-type {
+    justify-content: flex-end;
+}
+
+.bar-menu a {
+    text-transform: uppercase;
+}
+
+.logo {
+    max-height: 7vh;
+}
+
+.main, .welcome {
+    height: 100vh;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10vmin;
+}
+
+/*  Sección main */
+.main {
+    background: #E6EAF5;
+}
+
+.main-container {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.img-main {
+    width: 30%;
+    margin: 0 3rem 0 1rem;
+}
+
+.main-content {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bottom-info {
+    display: flex;
+    margin-top: 4vmin;
+    justify-content: center;
+}
+
+/* Sección welcome */
+.welcome {
+    background: url('/img/FONDO1_AUARE.png');
+    background-size: cover;
+}
+
+.p-welcome {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-welcome p {
+    width: 50%;
+    margin-bottom: 20px;
+    font-size: 2.2vmin;
+    text-align: justify;
+}

@@ -1,0 +1,97 @@
+.caja{
+    background: #E6EAF5;
+}
+
+.ima1{
+    margin: 0rem 0px 3.125rem 7.625rem;
+    border-radius: 10px;
+        width: 30%;
+    height: 15%;
+}
+
+.logo{
+    margin: -5rem 20.2rem 3rem 38.5rem;
+    width: 10%;
+    height: 5%;
+}
+
+.li-ancla {
+    cursor: pointer;
+    padding: 1.2rem 2rem;
+  }
+
+  .ancla {
+    color: rgb(77, 66, 66);
+    text-decoration: none;
+    font-size: 1rem;
+  }
+
+  .ul-index {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 0;
+    list-style: none;
+    margin-right: 72.5rem;
+  }
+
+  .ul-index2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 0;
+    list-style: none;
+    margin-left: 5.5rem;
+    margin: -4.5rem 0rem 70px 70.0rem;
+  }
+
+  .ul-index3{
+    margin: -37.5rem 150rem 70px 50.0rem;
+    text-align: left;
+
+  }
+
+  .ul-index4{
+    margin: -44.5rem 0px -20rem 5.0rem;
+    margin-right: 5rem;
+  }
+
+  .letra1{
+      font-family: ChronicaPro-Bold;
+      line-height: 150%;
+      color: blue;
+      font-size: large;
+
+  }
+
+  .letra2{
+    line-height: 150%;
+    color: blue;
+
+  }
+
+  .letra3{
+    line-height: 150%;
+    color: blue;
+
+  }
+
+  .boton {
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+    }
+
+    .img1{
+        margin: 0px, 5rem, ;
+    }
+
+    .p{
+      line-height: 150%;
+
+    }
