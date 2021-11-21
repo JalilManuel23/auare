@@ -65,6 +65,10 @@ h1{
     font-family: 'ChronicaThin';
 }
 
+.f-chr-regular {
+    font-family: 'ChronicaRegular';
+}
+
 .f-fix-thin {
     font-family: 'FixtureExpandedThin';
 }
@@ -86,6 +90,11 @@ h1{
     font-size: 4vmin;
 }
 
+.large8 {
+    font-size: 8vmin;
+    font-weight: 100;
+}
+
 .vlarge {
     font-size: 20vmin;
     font-weight: 100;
@@ -102,6 +111,14 @@ h1{
 
 .blue-2 {
     color: #0033d3;
+}
+
+.gray {
+    color: #8d8d8d;
+}
+
+.p-2 {
+    padding: 2vmin;
 }
 
 .p-tb-s {
@@ -159,8 +176,12 @@ img {
     max-height: 7vh;
 }
 
-.main, .welcome {
+.main, .welcome, .recibe, .pasos {
     height: 100vh;
+}
+
+.main, .recibe {
+    background: #E6EAF5;
 }
 
 .fixed {
@@ -171,7 +192,11 @@ img {
 .header {
     display: flex;
     justify-content: space-between;
-    padding-top: 10vmin;
+    padding-top: 5vmin;
+}
+
+.header h1 {
+    width: 80%;
 }
 
 .btn {
@@ -182,11 +207,11 @@ img {
     border-radius: 20px;
 }
 
-/*  Sección main */
-.main {
-    background: #E6EAF5;
+.t-u {
+    text-transform: uppercase;
 }
 
+/*  Sección main */
 .main-container {
     display: flex;
     margin-top: 2rem;
@@ -234,4 +259,22 @@ img {
     display: flex;
     margin-top: 3vmin;
     justify-content: center;
+}
+
+/* Sección productos -recibe- */
+.productos {
+    margin-top: 2vmin;
+    display: flex;
+    justify-content: space-between;
+}
+
+.producto {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.producto img {
+    height: 50%;
 }
