@@ -198,11 +198,11 @@ img {
     max-height: 7vh;
 }
 
-.main, .welcome, .recibe, .pasos, .espacio, .foot, .faq, .nosotros {
+.main, .welcome, .recibe, .pasos, .espacio, .foot, .faq, .nosotros, .servicios {
     min-height: 100vh;
 }
 
-.main, .recibe, .nosotros {
+.main, .recibe, .nosotros, .servicios {
     background: #E6EAF5;
 }
 
@@ -438,4 +438,37 @@ accordion-item {
 .quote, .proposito {
     text-align: justify;
     width: 90%;
+}
+
+/* Servicios */
+.servicio {
+    display: flex;
+    justify-content: space-between;
+    margin: 5vmin 0;
+    width: 80%;
+}
+
+.servicio p {
+    width: 70%;
+}
+
+.info-servicio {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: space-between;
+}
+
+.descrip-servicio {
+    line-height: 1.2;
+}
+
+.servicios-img {
+    width: 30%;
+    height: 100%;
+}
+
+.lista-consultoria {
+    padding: 0;
+    list-style: square;
 }
