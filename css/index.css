@@ -180,7 +180,7 @@ img {
     max-height: 7vh;
 }
 
-.main, .welcome, .recibe, .pasos {
+.main, .welcome, .recibe, .pasos, .espacio, .foot {
     height: 100vh;
 }
 
@@ -215,6 +215,17 @@ img {
     text-transform: uppercase;
 }
 
+.fechas {
+    color: #ffd900;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
 /*  Sección main */
 .main-container {
     display: flex;
@@ -240,7 +251,7 @@ img {
 }
 
 /* Sección welcome */
-.welcome {
+.welcome, .foot {
     background: url('/img/FONDO1_AUARE.png');
     background-size: cover;
 }
@@ -299,4 +310,82 @@ img {
 
 .paso {
     width: 20%;
+}
+
+/* Sección espacio */
+.espacio {
+    background: #0033d3;
+}
+
+.contenido-espacio {
+    display: flex;
+}
+
+.noticias {
+    margin-top: 5vmin;
+    padding-right: 3vmin;
+    border-right: 1px solid white;
+    width: 40%;
+}
+
+.noticia {
+    display: flex;
+    padding: 1vmin 0;
+    border-bottom: 1px solid white;
+}
+
+.noticia-img {
+    width: 40%;
+    padding-right: 1vmin;
+}
+
+.proyectos {
+    margin-top: 5vmin;
+    padding-left: 1vmin;
+}
+
+/* Sección foot */
+.h-foot {
+    justify-content: flex-end;
+}
+
+.foot-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt-foot {
+    margin: 10vmin 0;
+    text-align: center;
+    font-size: 5vmin;
+    font-weight: 300;
+}
+
+.newsletter {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txt {
+    border: none;
+    padding: 15px;
+    background: #e9e5e5;
+    border-radius: 10px;
+    width: 100%;
+    margin: 1vmin;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    padding-bottom: 3vmin;
+    justify-content: space-around;
+}
+
+footer img {
+    height: 40px;
 }
