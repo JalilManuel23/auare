@@ -169,15 +169,22 @@ img {
 }
 
 .bar-menu {
+    background: #E6EAF5;
+    position: fixed;
+    width: 100%;
+}
+
+.bar-menu-container {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     width: 100%;
     padding-top: 10vh;
+    padding-left: 0;
 }
 
 .bar-menu li {
-    width: 30%;
+    /* width: 30%; */
     display: flex;
     justify-content: center;
 }
@@ -198,7 +205,12 @@ img {
     max-height: 7vh;
 }
 
-.main, .welcome, .recibe, .pasos, .espacio, .foot, .faq, .nosotros, .servicios {
+.main {
+    min-height: 85vh;
+    padding-top: 25vh;
+}
+
+.welcome, .recibe, .pasos, .espacio, .foot, .faq, .nosotros, .servicios {
     min-height: 100vh;
 }
 
@@ -251,7 +263,7 @@ img {
 /*  Sección main */
 .main-container {
     display: flex;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 
 .img-main {
@@ -411,10 +423,6 @@ footer img {
 }
 
 /* Página de FAQ */
-.bar-menu  {
-    padding-left: 0;
-}
-
 .faq-title {
     padding: 5vmin;
     font-size: 15vmin;
