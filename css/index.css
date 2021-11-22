@@ -125,6 +125,10 @@ h1{
     padding: 2vmin;
 }
 
+.p-5 {
+    padding: 5vmin;
+}
+
 .p-tb-s {
     padding: 0.5rem 0;
 }
@@ -132,6 +136,10 @@ h1{
 a {
     text-decoration: none;
     color: #2e47ae;
+}
+
+.btn:hover {
+    color: white;
 }
 
 ul {
@@ -180,12 +188,16 @@ img {
     max-height: 7vh;
 }
 
-.main, .welcome, .recibe, .pasos, .espacio, .foot {
-    height: 100vh;
+.main, .welcome, .recibe, .pasos, .espacio, .foot, .faq {
+    min-height: 100vh;
 }
 
 .main, .recibe {
     background: #E6EAF5;
+}
+
+.pasos, .faq, .accordion-button {
+    background: #c9d1de
 }
 
 .fixed {
@@ -295,10 +307,6 @@ img {
 }
 
 /* Sección de pasos */
-.pasos {
-    background: #bdcfe4;
-}
-
 .proceso-img {
     margin-top: 2vmin;
 }
@@ -388,4 +396,24 @@ footer {
 
 footer img {
     height: 40px;
+}
+
+/* Página de FAQ */
+.faq .bar-menu {
+    padding-left: 0;
+}
+
+.faq-title {
+    padding: 5vmin;
+    font-size: 15vmin;
+    font-weight: bolder;
+    color: white;
+}
+
+accordion-item {
+    background: #c9d1de;
+}
+
+.accordion-button {
+    border-bottom: 1px solid #8d8d8d;
 }
