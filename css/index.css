@@ -77,6 +77,11 @@ h1{
     font-family: 'MyriadPro-Regular';
 }
 
+.flex {
+    display: flex;
+    width: 100%;
+}
+
 /* Tamaños */
 .small {
     font-size: small;
@@ -181,6 +186,21 @@ img {
     width: 100%;
     padding-top: 10vh;
     padding-left: 0;
+}
+
+.bar-menu-container-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 4vh;
+}
+
+.shadow {
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+}
+
+.bar-menu-container-2 .logo {
+    width: 8%;
 }
 
 .bar-menu li {
