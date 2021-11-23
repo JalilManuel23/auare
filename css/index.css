@@ -452,6 +452,16 @@ img {
     width: 20%;
 }
 
+@media (min-width: 768px) {
+    .proceso-img {
+        margin-top: 15vh;
+    }
+
+    .paso {
+        width: 30%;
+        text-align: center;
+    }
+}
 /* Sección espacio */
 .espacio {
     background: #0033d3;
