@@ -185,6 +185,7 @@ img {
     width: 100%;
     --background: #E6EAF5;
     background: var(--background);
+    transition: all 0.8s ease-out;
 }
 
 .bar-menu-container {
@@ -544,4 +545,47 @@ accordion-item {
 .lista-consultoria {
     padding: 0;
     list-style: square;
+}
+
+/* Menú */
+.active {
+    transition: all 0.8s ease-out;
+    z-index: 10000;
+    padding: 7vmin 15vmin;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.2);
+    background-color: #c9d1de;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista-menu {
+    transition: all 0.8s ease-out;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 10vmin;
+}
+
+.close {
+    display: none;
+}
+
+.close-div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cerrar {
+    font-size: 8vmin;
+}
+
+.pointer:hover {
+    cursor: pointer;
 }

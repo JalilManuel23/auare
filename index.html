@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="css/index.css">
     <title>AUARE</title>
 </head>
+
 <body>
     <header class="bar-menu f-chr-bold blue-1">
         <ul class="bar-menu-container container p-t-10">
@@ -19,11 +21,11 @@
                 </a>
             </li>
             <li>
-                <a href="#">Menú</a>
+                <a onclick="showMenu()" class="pointer">Menú</a>
             </li>
             <a class="menu-icon" href="#"><img class="menu-icon" src="img/MENU1_AUARE.png" alt="menu"></a>
         </ul>
-    </header> 
+    </header>
     <main class="main">
         <div class="container">
             <div class="main-container">
@@ -129,7 +131,8 @@
             <div class="header">
                 <div>
                     <h1 class="f-chr-thin blue-2 large8">DA INICIO A TU PROYECTO EN 3 PASOS</h1>
-                    <h2 class="small f-chr-bold gray t-u">Conoce la información que necesitas para empezar de forma oportuna y transparente.</h2>
+                    <h2 class="small f-chr-bold gray t-u">Conoce la información que necesitas para empezar de forma
+                        oportuna y transparente.</h2>
                 </div>
                 <img class="menu-icon" src="img/MENU1_AUARE.png" alt="menu">
             </div>
@@ -202,7 +205,7 @@
             </div>
         </div>
     </section> -->
-    <section class="foot">
+    <section id="foot" class="foot">
         <div class="container d-flex">
             <div class="header h-foot">
                 <img class="menu-icon" src="img/MENU1_AUARE.png" alt="menu">
@@ -210,7 +213,7 @@
             <div class="foot-cont">
                 <h1 class="f-chr-thin blue-2 txt-foot">
                     UN GRAN PROYECTO DE INFRAESTRUCTURA EN SALUD NO SE DEFINE
-                    POR SU TAMAÑO, SINO POR LA MEDIDA EN LA QUE CUMPLE CON SU COMETIDO:<br/>
+                    POR SU TAMAÑO, SINO POR LA MEDIDA EN LA QUE CUMPLE CON SU COMETIDO:<br />
                     SERVIR A LA SALUD DE LA PERSONAS.
                 </h1>
                 <form action="" class="newsletter">
@@ -241,6 +244,25 @@
             </footer>
         </div>
     </section>
+    <div id="menu" class="close">
+        <div class="close-div">
+            <p class="f-chr-thin blue-1 cerrar pointer" onclick="closeMenu()">X</p>
+        </div>
+        <ul class="lista-menu f-chr-bold xlarge">
+            <li>
+                <a href="#">INICIO</a>
+            </li>
+            <li>
+                <a href="/html/faq.html">FAQ</a>
+            </li>
+            <li>
+                <a href="/html/nosotros.html">NOSOTROS</a>
+            </li>
+            <li>
+                <a href="/html/servicios.html">SERVICIOS</a>
+            </li>
+        </ul>
+    </div>
     <script src="js/main.js"></script>
 </body>
 

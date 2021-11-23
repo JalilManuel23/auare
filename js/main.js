@@ -34,3 +34,16 @@ window.onscroll = function() {
         menuContainer.classList.remove("bar-menu-container-2"); 
     }
 }
+
+
+const menu = document.querySelector("#menu");
+
+function showMenu() {
+    menu.classList.add("active");
+    menu.classList.remove("close");
+}
+
+function closeMenu() {
+    menu.classList.remove("active");
+    menu.classList.add("close");
+}
