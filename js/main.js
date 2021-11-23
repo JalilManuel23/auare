@@ -3,7 +3,7 @@ const menuContainer = document.querySelector(".bar-menu-container");
 const sectionOne = document.querySelector(".main");
 
 const sectionOneOptions = {
-  rootMargin: "-200px 0px 0px 0px"
+    rootMargin: "-200px 0px 0px 0px"
 };
 
 const sectionOneObserver = new IntersectionObserver(function(
@@ -13,7 +13,6 @@ const sectionOneObserver = new IntersectionObserver(function(
     entries.forEach(entry => {
         if (!entry.isIntersecting) {
             header.classList.add("nav-scrolled");
-            header.classList.remove("shadow");
             menuContainer.classList.remove("bar-menu-container-2"); 
         } else {
             header.classList.remove("nav-scrolled");
