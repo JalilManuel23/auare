@@ -179,6 +179,7 @@ img {
 
 .bar-menu {
     position: fixed;
+    z-index: 9000;
     top: 0;
     padding: 0;
     width: 100%;
@@ -271,7 +272,7 @@ img {
 }
 
 .pasos, .faq, .accordion-button {
-    background: #c9d1de
+    background: #c9d1de;
 }
 
 .fixed {
@@ -475,6 +476,18 @@ footer img {
 }
 
 /* Página de FAQ */
+.faq, .nosotros, .servicios {
+    padding-top: 13vmin;
+}
+
+.faq-menu {
+    background: #c9d1de;
+}
+
+.servicios-nosotros-menu {
+    background: #E6EAF5;
+}
+
 .faq-title {
     padding: 5vmin;
     font-size: 15vmin;
