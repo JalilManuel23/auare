@@ -1,29 +1,37 @@
+const header = document.querySelector("header");
+const menuContainer = document.querySelector(".bar-menu-container");
+const sectionOne = document.querySelector(".main");
+
+const sectionOneOptions = {
+  rootMargin: "-200px 0px 0px 0px"
+};
+
+const sectionOneObserver = new IntersectionObserver(function(
+    entries,
+    sectionOneObserver
+) {
+    entries.forEach(entry => {
+        if (!entry.isIntersecting) {
+            header.classList.add("nav-scrolled");
+            header.classList.remove("shadow");
+            menuContainer.classList.remove("bar-menu-container-2"); 
+        } else {
+            header.classList.remove("nav-scrolled");
+        }
+    });
+},
+sectionOneOptions);
+
+sectionOneObserver.observe(sectionOne);
+
 window.onscroll = function() {
-    console.log( pageYOffset );
-
-
-
+    if( pageYOffset != 0 ) {
+        header.classList.add("shadow");
+        menuContainer.classList.add("bar-menu-container-2");
+        menuContainer.classList.remove("p-t-10"); 
+    } else {
+        header.classList.remove("shadow");
+        menuContainer.classList.add("p-t-10");
+        menuContainer.classList.remove("bar-menu-container-2"); 
+    }
 }
-
-{/* 
-<ul class="bar-menu f-chr-bold blue-1">
-    <div class="bar-menu-container container">
-        <li>
-            <a href="#">Soy cliente</a>
-        </li>
-        <li>
-            <img src="img/LOGO PRINCIPAL_AUARE.png" alt="logo" class="logo">
-        </li>
-        <li>
-            <a href="#">Menú</a>
-        </li>
-    </div>
-</ul> 
-
-<div class="bar-menu shadow">
-    <div class="bar-menu-container bar-menu-container-2 container">
-            <img src="img/LOGO PRINCIPAL_AUARE.png" alt="logo" class="logo">
-            <img class="menu-icon" src="img/MENU1_AUARE.png" alt="menu">
-    </div>
-</div>
-*/}
