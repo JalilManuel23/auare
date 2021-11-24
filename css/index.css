@@ -177,6 +177,22 @@ img {
     /* margin: auto; */
 }
 
+@media (max-width: 400px) {
+    .container {
+        width: 90%;
+    }
+}
+@media (max-width: 768px) {
+    .min-container {
+        width: 110%;
+        margin: auto;
+    }
+
+    .min-container p {
+        font-size: 3vmin;
+    }
+}
+
 .bar-menu {
     position: fixed;
     z-index: 9000;
@@ -208,6 +224,12 @@ img {
     transition: all 2s ease-out;
 }
 
+@media (max-width: 400px) {
+    .bar-menu {
+        padding: 2vmin 0;
+    }
+}
+
 .shadow {
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
 }
@@ -237,9 +259,9 @@ img {
     display: block;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .nav-scrolled {
-        margin-top: 8vh;
+        margin-top: 5vmin;
         width: 90%;
     }
 }
@@ -266,7 +288,7 @@ img {
     max-height: 7vh;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .logo {
         width: 60%;
     }
@@ -304,7 +326,7 @@ img {
     width: 80%;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .header h1 {
         width: 95%;
     }
@@ -316,6 +338,12 @@ img {
     color: #fff;
     background: #2e47ae;
     border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    .btn {
+        text-align: center;
+    }
 }
 
 .t-u {
@@ -357,7 +385,11 @@ img {
     justify-content: center;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+    .img-main {
+        width: 50%;
+    }
+
     .main-container {
         flex-direction: column;
         align-items: center;
@@ -368,6 +400,23 @@ img {
 
     .main-container h2{
         padding: 8vh 0;
+    }
+
+    .main-content {
+        width: 100%;
+    }
+
+    .bottom-info {
+        margin-top: 10vmin;
+    }
+
+    .bottom-info p {
+        font-size: 2vmin;
+    }
+
+    .img-main {
+        margin: 0;
+        padding-bottom: 8vmin;
     }
 }
 
@@ -397,10 +446,18 @@ img {
     justify-content: center;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .p-welcome p {
         width: 80%;
         font-size: 3vmin;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 400px) {
+    .p-welcome p {
+        width: 100%;
+        font-size: 4vmin;
     }
 }
 
@@ -422,15 +479,16 @@ img {
     height: 50%;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .productos {
         flex-direction: column;
         align-items: center;
     }
 
     .producto {
-        width: 70%;
+        width: 90%;
         padding: 4vmin;
+        text-align: center;
     }
 
     .producto img {
@@ -452,7 +510,7 @@ img {
     width: 20%;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .proceso-img {
         margin-top: 15vh;
     }
@@ -460,6 +518,14 @@ img {
     .paso {
         width: 30%;
         text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .paso {
+        width: 30%;
+        text-align: center;
+        font-size: 4vmin;
     }
 }
 /* Sección espacio */
@@ -529,6 +595,13 @@ img {
     margin: 1vmin;
 }
 
+@media (max-width: 768px) {
+    .newsletter{
+        width: 40%;
+        text-align: center;
+    }
+}
+
 /* Footer */
 footer {
     display: flex;
@@ -540,6 +613,25 @@ footer {
 
 footer img {
     height: 40px;
+}
+
+@media (max-width: 400px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+        font-size: 3vmin;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    footer div {
+        padding: 4vmin;
+    }
+
+    footer ul {
+        padding: 0;
+        margin: 0;
+    }
 }
 
 /* Página de FAQ */
@@ -562,6 +654,12 @@ footer img {
     color: white;
 }
 
+@media (max-width: 400px) {
+    .faq-title {
+        padding-top: 20vmin;
+    }
+}
+
 accordion-item {
     background: #c9d1de;
 }
@@ -578,6 +676,18 @@ accordion-item {
 .quote, .proposito {
     text-align: justify;
     width: 90%;
+}
+
+@media (max-width: 768px) {
+    .nosotros-servicio-title {
+        font-size: 10vmin;
+    }
+}
+
+@media (max-width: 400px) {
+    .nosotros-servicio-title {
+        margin-top: 10vmin;
+    }
 }
 
 /* Servicios */
@@ -606,6 +716,44 @@ accordion-item {
 .servicios-img {
     width: 30%;
     height: 100%;
+}
+
+@media (max-width: 768px) {
+    .servicio {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .servicio p {
+        width: 100%;
+    }
+
+    .servicios-img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 400px) {
+    .nosotros-servicio-title {
+        text-align: center;
+    }
+    .servicio {
+        flex-direction: column;
+        margin: 15vmin 0;
+    }
+
+    .servicio p, .servicio h2 {
+        text-align: center;
+    }
+
+    .servicio h2 {
+        font-size: 6vmin;
+    }
+
+    .servicios-img {
+        width: 60%;
+    }
 }
 
 .lista-consultoria {
