@@ -36,14 +36,12 @@ window.onscroll = function() {
 }
 
 
-const menu = document.querySelector("#menu");
-
-function showMenu() {
-    menu.classList.add("active");
-    menu.classList.remove("close");
+/* Set the width of the side navigation to 250px */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
 }
 
-function closeMenu() {
-    menu.classList.remove("active");
-    menu.classList.add("close");
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
 }
