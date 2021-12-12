@@ -471,7 +471,7 @@ img {
 
 /* Sección welcome */
 .welcome, .foot {
-    background: url('/img/FONDO1_AUARE.png');
+    background: url('../img/FONDO1_AUARE.png');
     background-size: cover;
 }
 
