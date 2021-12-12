@@ -9,8 +9,15 @@
     <title>AUARE</title>
 </head>
 
-<body>
+<body id="main">
     <header class="bar-menu f-chr-bold blue-1">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
         <ul class="bar-menu-container container p-t-10">
             <li class="li-cliente">
                 <a href="#">Soy cliente</a>
@@ -21,9 +28,9 @@
                 </a>
             </li>
             <li>
-                <a onclick="showMenu()" class="pointer">Menú</a>
+                <span onclick="openNav()">MENÚ</span>
             </li>
-            <a class="menu-icon pointer" onclick="showMenu()"><img class="menu-icon" src="img/MENU1_AUARE.png" alt="menu"></a>
+            <a class="menu-icon pointer" onclick="openNav()"><img class="menu-icon" src="img/MENU1_AUARE.png" alt="menu"></a>
         </ul>
     </header>
     <main class="main">
@@ -246,26 +253,8 @@
             </footer>
         </div>
     </section>
-    <div id="menu" class="close">
-        <div class="close-div">
-            <p class="f-chr-thin blue-1 cerrar pointer" onclick="closeMenu()">X</p>
-        </div>
-        <ul class="lista-menu f-chr-bold xlarge">
-            <li>
-                <a href="#">INICIO</a>
-            </li>
-            <li>
-                <a href="/html/faq.html">FAQ</a>
-            </li>
-            <li>
-                <a href="/html/nosotros.html">NOSOTROS</a>
-            </li>
-            <li>
-                <a href="/html/servicios.html">SERVICIOS</a>
-            </li>
-        </ul>
-    </div>
     <script src="js/main.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 
 </html>
