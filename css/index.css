@@ -193,6 +193,14 @@ img {
     }
 }
 
+.accordion-item,  .accordion-button {
+    background: transparent;
+}
+
+.accordion-button:active {
+    background: transparent;
+}
+
 .bar-menu {
     position: fixed;
     z-index: 9000;
@@ -295,12 +303,13 @@ img {
 }
 
 .main {
-    min-height: 80vh;
+    min-height: 75vh;
     padding-top: 25vh;
 }
 
-.welcome, .recibe, .pasos, .espacio, .foot, .faq, .nosotros, .servicios {
+.welcome, .recibe, .pasos, .espacio, .foot, .nosotros  {
     min-height: 100vh;
+    max-height: 100vh;
 }
 
 .main, .recibe, .nosotros, .servicios {
@@ -329,6 +338,10 @@ img {
 @media (max-width: 768px) {
     .header h1 {
         width: 95%;
+    }
+    .welcome, .recibe, .pasos, .espacio, .foot, .faq, .nosotros, .servicios {
+        min-height: 100vh;
+        max-height: 100%;
     }
 }
 
@@ -434,6 +447,10 @@ img {
     justify-content: center;
 }
 
+.bottom-info p {
+    word-spacing: 10px;
+}
+
 @media (max-width: 768px) {
     .img-main {
         width: 50%;
@@ -512,7 +529,7 @@ img {
 
 /* Sección productos -recibe- */
 .productos {
-    margin-top: 2vmin;
+    margin-top: 4vmin;
     display: flex;
     justify-content: space-between;
 }
@@ -525,7 +542,7 @@ img {
 }
 
 .producto img {
-    height: 50%;
+    height: 40%;
 }
 
 @media (max-width: 768px) {
@@ -653,11 +670,12 @@ img {
 
 /* Footer */
 footer {
+    width: 60%;
+    margin: auto;
     display: flex;
     padding: 3vmin 0;
     justify-content: space-around;
     margin-top: 8vmin;
-    border-top: 1px solid rgb(92, 92, 92);
 }
 
 footer img {
@@ -709,7 +727,7 @@ footer img {
     }
 }
 
-accordion-item {
+.accordion-item, .accordion-button:hover {
     background: #c9d1de;
 }
 
@@ -760,6 +778,10 @@ accordion-item {
 
 .descrip-servicio {
     line-height: 1.2;
+}
+
+.descrip-servicio, .p-servicio {
+    text-align: justify;
 }
 
 .servicios-img {
