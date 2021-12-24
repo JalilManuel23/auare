@@ -12,7 +12,7 @@ body {
     font-family: sans-serif;
 }
 
-h1{
+h1 {
     padding: 0;
     margin: 0;
 }
@@ -56,6 +56,7 @@ h1{
     font-family: "MyriadPro-Regular";
     src: url("../Fonts/MyriadPro-Regular.otf");
 }
+
 /* Fuentes */
 .f-chr-bold {
     font-family: 'ChronicaBold';
@@ -63,6 +64,7 @@ h1{
 
 .f-chr-thin {
     font-family: 'ChronicaThin';
+    font-weight: 400;
 }
 
 .f-chr-regular {
@@ -182,6 +184,7 @@ img {
         width: 90%;
     }
 }
+
 @media (max-width: 768px) {
     .min-container {
         width: 110%;
@@ -193,7 +196,8 @@ img {
     }
 }
 
-.accordion-item,  .accordion-button {
+.accordion-item,
+.accordion-button {
     background: transparent;
 }
 
@@ -307,16 +311,25 @@ img {
     padding-top: 25vh;
 }
 
-.welcome, .recibe, .pasos, .espacio, .foot, .nosotros  {
+.welcome,
+.recibe,
+.pasos,
+.espacio,
+.foot {
     min-height: 100vh;
     max-height: 100vh;
 }
 
-.main, .recibe, .nosotros, .servicios {
+.main,
+.recibe,
+.nosotros,
+.servicios {
     background: #E6EAF5;
 }
 
-.pasos, .faq, .accordion-button {
+.pasos,
+.faq,
+.accordion-button {
     background: #c9d1de;
 }
 
@@ -339,7 +352,15 @@ img {
     .header h1 {
         width: 95%;
     }
-    .welcome, .recibe, .pasos, .espacio, .foot, .faq, .nosotros, .servicios {
+
+    .welcome,
+    .recibe,
+    .pasos,
+    .espacio,
+    .foot,
+    .faq,
+    .nosotros,
+    .servicios {
         min-height: 100vh;
         max-height: 100%;
     }
@@ -376,52 +397,66 @@ img {
 
 /* The side navigation menu */
 .sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
     right: 0;
-    background-color: #111; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-  }
-  
-  /* The navigation menu links */
-  .sidenav a {
+    background-color: #111;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
     transition: 0.3s;
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
     color: #f1f1f1;
-  }
-  
-  /* Position and style the close button (top right corner) */
-  .sidenav .closebtn {
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-  }
-  
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  #main {
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
     transition: margin-left .5s;
-  }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
 
 /*  Sección main */
 .main-container {
@@ -461,10 +496,10 @@ img {
         align-items: center;
         justify-content: space-around;
         height: 50vh;
-        text-align: center; 
+        text-align: center;
     }
 
-    .main-container h2{
+    .main-container h2 {
         padding: 8vh 0;
     }
 
@@ -487,7 +522,8 @@ img {
 }
 
 /* Sección welcome */
-.welcome, .foot {
+.welcome,
+.foot {
     background: url('../img/FONDO1_AUARE.png');
     background-size: cover;
 }
@@ -567,13 +603,21 @@ img {
     margin-top: 2vmin;
 }
 
+
 .proceso {
     display: flex;
     justify-content: space-between;
 }
 
 .paso {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     width: 20%;
+}
+
+.paso p {
+    margin-top: -70px;
 }
 
 @media (max-width: 768px) {
@@ -594,6 +638,15 @@ img {
         font-size: 4vmin;
     }
 }
+
+.accordion-button.collapsed::after {
+    background: url("../img/plus.svg");
+}
+
+.accordion-button:not(.collapsed)::after {
+    background: url("../img/times.svg");
+}
+
 /* Sección espacio */
 .espacio {
     background: #0033d3;
@@ -662,7 +715,7 @@ img {
 }
 
 @media (max-width: 768px) {
-    .newsletter{
+    .newsletter {
         width: 40%;
         text-align: center;
     }
@@ -702,7 +755,9 @@ footer img {
 }
 
 /* Página de FAQ */
-.faq, .nosotros, .servicios {
+.faq,
+.nosotros,
+.servicios {
     padding-top: 13vmin;
 }
 
@@ -727,7 +782,8 @@ footer img {
     }
 }
 
-.accordion-item, .accordion-button:hover {
+.accordion-item,
+.accordion-button:hover {
     background: #c9d1de;
 }
 
@@ -740,7 +796,8 @@ footer img {
     font-size: 15vmin;
 }
 
-.quote, .proposito {
+.quote,
+.proposito {
     text-align: justify;
     width: 90%;
 }
@@ -780,7 +837,8 @@ footer img {
     line-height: 1.2;
 }
 
-.descrip-servicio, .p-servicio {
+.descrip-servicio,
+.p-servicio {
     text-align: justify;
 }
 
@@ -809,12 +867,14 @@ footer img {
     .nosotros-servicio-title {
         text-align: center;
     }
+
     .servicio {
         flex-direction: column;
         margin: 15vmin 0;
     }
 
-    .servicio p, .servicio h2 {
+    .servicio p,
+    .servicio h2 {
         text-align: center;
     }
 
@@ -842,7 +902,7 @@ footer img {
     top: 0;
     height: 100vh;
     box-shadow: 0 3px 2px rgba(0, 0, 0, 0.2);
-    background-color: #c9d1de;   
+    background-color: #c9d1de;
     display: flex;
     flex-direction: column;
     align-items: center;
