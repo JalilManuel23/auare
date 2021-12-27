@@ -483,7 +483,7 @@ img {
 
 .bottom-info {
     display: flex;
-    margin-top: 4vmin;
+    margin-top: 8vmin;
     justify-content: center;
 }
 
@@ -583,7 +583,7 @@ img {
 }
 
 .producto img {
-    height: 40%;
+    height: 50%;
 }
 
 @media (max-width: 768px) {
@@ -618,7 +618,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    width: 20%;
+    width: 25%;
 }
 
 .paso p {
@@ -650,6 +650,10 @@ img {
 
 .accordion-button:not(.collapsed)::after {
     background: url("../img/times.svg");
+}
+
+.accordion-body {
+    color: #2e47ae;
 }
 
 /* Sección espacio */
@@ -927,6 +931,10 @@ footer img {
 .servicios-img {
     width: 30%;
     height: 100%;
+}
+
+.servicios-img-2{
+    width: 35%;
 }
 
 @media (max-width: 768px) {
