@@ -928,13 +928,14 @@ footer img {
     text-align: justify;
 }
 
+
 .servicios-img {
     width: 30%;
     height: 100%;
 }
 
 .servicios-img-2{
-    width: 35%;
+    width: 38%;
 }
 
 @media (max-width: 768px) {
