@@ -1032,3 +1032,18 @@ footer img {
 .pointer:hover {
     cursor: pointer;
 }
+
+.consultoria {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vmin;
+}
+
+.airtable-embed {
+    width: 500px;
+}
+
+.form-consultoria {
+    background: transparent;
+    border: 1px solid #ccc;
+}
