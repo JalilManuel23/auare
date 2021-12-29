@@ -586,6 +586,25 @@ img {
     height: 50%;
 }
 
+@media (min-width: 1200px) {
+    .productos {
+        margin-top: 15vmin;
+    }
+
+    .producto p {
+        font-size: 1.6vmin;
+    }
+
+    .large8 {
+        font-size: 6vmin;
+    }
+
+    .proceso-img {
+        padding-top: 10vmin;
+    }
+}
+
+
 @media (max-width: 768px) {
     .productos {
         flex-direction: column;
