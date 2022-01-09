@@ -1,0 +1,214 @@
+@font-face {
+    font-family: "ChronicaBold";
+    src: url("../Fonts/ChronicaPro-Bold\ \(1\).ttf");
+}
+
+@font-face {
+    font-family: "ChronicaBook";
+    src: url("../Fonts/ChronicaPro-Book.ttf");
+}
+
+@font-face {
+    font-family: "ChronicaRegular";
+    src: url("../Fonts/ChronicaPro-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: "ChronicaThin";
+    src: url("../Fonts/ChronicaPro-Thin\ \(1\).ttf");
+}
+
+@font-face {
+    font-family: "FixtureBold";
+    src: url("../Fonts/Fixture-Bold.ttf");
+}
+
+@font-face {
+    font-family: "FixtureExpandedSemiBold";
+    src: url("../Fonts/Fixture-ExpandedSemiBold.ttf");
+}
+
+@font-face {
+    font-family: "FixtureExpandedRegular";
+    src: url("../Fonts/Fixture-ExpandedRegular.ttf");
+}
+
+@font-face {
+    font-family: "FixtureExpandedThin";
+    src: url("../Fonts/Fixture-ExpandedThin.ttf");
+}
+
+@font-face {
+    font-family: "MyriadPro-Regular";
+    src: url("../Fonts/MyriadPro-Regular.otf");
+}
+
+@font-face {
+    font-family: "GrifterBold";
+    src: url("../Fonts/grifterbold.otf");
+}
+
+
+
+/* Fuentes */
+.f-chr-bold {
+    font-family: 'ChronicaBold';
+}
+
+.f-chr-bold {
+    font-family: 'GrifterBold';
+}
+
+.f-chr-book {
+    font-family: 'ChronicaBook';
+}
+
+.f-chr-thin {
+    font-family: 'ChronicaThin';
+    font-weight: 400;
+}
+
+.f-chr-regular {
+    font-family: 'ChronicaRegular';
+}
+
+.f-fix-regular {
+    font-family: 'FixtureExpandedRegular';
+}
+
+.f-fix-thin {
+    font-family: 'FixtureExpandedThin';
+}
+
+.f-fix-semi {
+    font-family: 'FixtureExpandedSemiBold';
+}
+
+.f-my {
+    font-family: 'MyriadPro-Regular';
+}
+
+/* Tamaños */
+.tam-16 {
+    font-size: 16px;
+}
+
+.tam-18 {
+    font-size: 18px;
+}
+
+.tam-21 {
+    font-size: 21px;
+}
+
+.tam-22 {
+    font-size: 22px;
+}
+
+.tam-24 {
+    font-size: 24px;
+}
+
+.tam-26 {
+    font-size: 26px;
+}
+
+.tam-30 {
+    font-size: 30px;
+}
+
+.tam-40 {
+    font-size: 40px;
+}
+
+.tam-50 {
+    font-size: 50px;
+}
+
+.tam-70 {
+    font-size: 70px;
+}
+
+.tam-150 {
+    font-size: 150px;
+}
+
+.tam-170 {
+    font-size: 170px;
+}
+
+.tam-243 {
+    font-size: 243px;
+}
+
+
+/* Line height */
+.lh-22 {
+    line-height: 60px;
+}
+
+.lh-24 {
+    line-height: 60px;
+}
+
+.lh-26 {
+    line-height: 60px;
+}
+
+.lh-36 {
+    line-height: 60px;
+}
+.lh-46 {
+    line-height: 60px;
+}
+
+.lh-60 {
+    line-height: 60px;
+}
+
+.lh-84 {
+    line-height: 60px;
+}
+
+/* Separación */
+.s-0 {
+    letter-spacing: 3px;
+}
+.s-17 {
+    letter-spacing: 3px;
+}
+.s-100 {
+    letter-spacing: 3px;
+}
+.s-135 {
+    letter-spacing: 3px;
+}
+.s-140 {
+    letter-spacing: 3px;
+}
+.s-154 {
+    letter-spacing: 3px;
+}
+.s-190 {
+    letter-spacing: 3px;
+}
+.s-200 {
+    letter-spacing: 3px;
+}
+
+/* Colores */
+.blue-1 {
+    color: #2e47ae;
+}
+
+.blue-2 {
+    color: #0033d3;
+}
+
+/* Especificas */
+.menu-op {
+    font-family: 'ChronicaBold';
+    font-size: 18px;
+    letter-spacing: 2px;
+}

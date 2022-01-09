@@ -17,107 +17,9 @@ h1 {
     margin: 0;
 }
 
-@font-face {
-    font-family: "ChronicaRegular";
-    src: url("../Fonts/ChronicaPro-Regular.ttf");
-}
-
-@font-face {
-    font-family: "ChronicaBold";
-    src: url("../Fonts/ChronicaPro-Bold\ \(1\).ttf");
-}
-
-@font-face {
-    font-family: "ChronicaThin";
-    src: url("../Fonts/ChronicaPro-Thin\ \(1\).ttf");
-}
-
-@font-face {
-    font-family: "FixtureBold";
-    src: url("../Fonts/Fixture-Bold.ttf");
-}
-
-@font-face {
-    font-family: "FixtureExpandedSemiBold";
-    src: url("../Fonts/Fixture-ExpandedSemiBold.ttf");
-}
-
-@font-face {
-    font-family: "FixtureExpandedRegular";
-    src: url("../Fonts/Fixture-ExpandedRegular.ttf");
-}
-
-@font-face {
-    font-family: "FixtureExpandedThin";
-    src: url("../Fonts/Fixture-ExpandedThin.ttf");
-}
-
-@font-face {
-    font-family: "MyriadPro-Regular";
-    src: url("../Fonts/MyriadPro-Regular.otf");
-}
-
-/* Fuentes */
-.f-chr-bold {
-    font-family: 'ChronicaBold';
-}
-
-.f-chr-thin {
-    font-family: 'ChronicaThin';
-    font-weight: 400;
-}
-
-.f-chr-regular {
-    font-family: 'ChronicaRegular';
-}
-
-.f-fix-thin {
-    font-family: 'FixtureExpandedThin';
-}
-
-.f-my {
-    font-family: 'MyriadPro-Regular';
-}
-
 .flex {
     display: flex;
     width: 100%;
-}
-
-/* Tamaños */
-.small {
-    font-size: small;
-}
-
-.medium {
-    font-size: medium;
-}
-
-.xlarge {
-    font-size: 4vmin;
-}
-
-.large8 {
-    font-size: 8vmin;
-    font-weight: 100;
-}
-
-.vlarge {
-    font-size: 20vmin;
-    font-weight: 100;
-}
-
-.menu-icon {
-    height: 15px;
-}
-
-/* Colores */
-.blue-1 {
-    color: #2e47ae;
-}
-
-.blue-2 {
-    color: #0033d3;
 }
 
 .gray {
@@ -128,6 +30,9 @@ h1 {
     color: #FFF;
 }
 
+.menu-icon {
+    height: 15px;
+}
 .p-2 {
     padding: 2vmin;
 }
@@ -475,7 +380,7 @@ img {
 }
 
 .main-content {
-    width: 45%;
+    /* width: 45%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
