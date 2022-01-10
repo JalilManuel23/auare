@@ -37,6 +37,14 @@ h1 {
     padding: 2vmin;
 }
 
+.p-3 {
+    padding: 4vmin;
+}
+
+.p-t-3 {
+    padding-top: 4vmin;
+}
+
 .p-5 {
     padding: 5vmin;
 }
@@ -277,12 +285,12 @@ img {
 .header {
     display: flex;
     justify-content: space-between;
-    padding-top: vmin;
+    padding-top: 3vmin;
 }
 
 
 .header h1 {
-    width: 80%;
+    width: 70%;
 }
 
 .header .w-100 {
@@ -527,7 +535,7 @@ img {
 
 /* Sección productos -recibe- */
 .productos {
-    margin-top: 4vmin;
+    margin-top: 0vmin;
     display: flex;
     justify-content: space-between;
 }
@@ -540,12 +548,25 @@ img {
 }
 
 .producto img {
-    height: 50%;
+    height: 45vh;
+    /* width: 100%; */
+}
+
+.producto .img-2-pr {
+    height: 47vh;
+}
+
+.producto p {
+    font-family: 'ChronicaBook';
+    font-size: 18px;
+    line-height: 16px;
+    text-align: justify;
+    color: #0e2e8f;
 }
 
 @media (min-width: 1200px) {
     .productos {
-        margin-top: 15vmin;
+        margin-top: 5vmin;
     }
 
     .producto p {

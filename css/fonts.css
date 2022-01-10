@@ -97,7 +97,7 @@
 }
 
 .tam-18 {
-    font-size: 18px;
+    font-size: 1.1rem
 }
 
 .tam-21 {
@@ -129,7 +129,7 @@
 }
 
 .tam-50 {
-    font-size: 50px;
+    font-size: 3.1rem;
 }
 
 .tam-70 {
@@ -151,7 +151,7 @@
 
 /* Line height */
 .lh-22 {
-    line-height: 60px;
+    line-height: 18px;
 }
 
 .lh-24 {
@@ -179,7 +179,7 @@
 
 /* Separación */
 .s-0 {
-    letter-spacing: 3px;
+    letter-spacing: 0px;
 }
 .s-17 {
     letter-spacing: 3px;
@@ -197,7 +197,7 @@
     letter-spacing: 3px;
 }
 .s-190 {
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 .s-200 {
     letter-spacing: 3px;
@@ -217,4 +217,9 @@
     font-family: 'ChronicaBold';
     font-size: 18px;
     letter-spacing: 2px;
+}
+
+.titulos {
+    font-family: 'FixtureExpandedRegular';
+    font-size: 48px;
 }
