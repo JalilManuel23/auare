@@ -52,13 +52,14 @@
 
 
 /* Fuentes */
+.f-grifter-bold {
+    font-family: 'GrifterBold';
+}
+
 .f-chr-bold {
     font-family: 'ChronicaBold';
 }
 
-.f-chr-bold {
-    font-family: 'GrifterBold';
-}
 
 .f-chr-book {
     font-family: 'ChronicaBook';
@@ -120,6 +121,10 @@
 
 .tam-40 {
     font-size: 40px;
+}
+
+.tam-45 {
+    font-size: 40.5px;
 }
 
 .tam-50 {
