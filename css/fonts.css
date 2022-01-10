@@ -80,6 +80,7 @@
 
 .f-fix-thin {
     font-family: 'FixtureExpandedThin';
+    font-weight: 100;
 }
 
 .f-fix-semi {
@@ -144,7 +145,7 @@
 }
 
 .tam-243 {
-    font-size: 243px;
+    font-size: 170px;
 }
 
 
@@ -154,7 +155,7 @@
 }
 
 .lh-24 {
-    line-height: 60px;
+    line-height: 18px;
 }
 
 .lh-26 {

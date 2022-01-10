@@ -277,7 +277,7 @@ img {
 .header {
     display: flex;
     justify-content: space-between;
-    padding-top: 5vmin;
+    padding-top: vmin;
 }
 
 
@@ -308,11 +308,11 @@ img {
 }
 
 .btn {
-    padding: 3vmin;
+    padding: 2.3vmin 5vmin;
     text-transform: uppercase;
     color: #fff;
     background: #2e47ae;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 @media (max-width: 768px) {
@@ -487,18 +487,26 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 3vmin;
 }
 
 .p-welcome p {
-    width: 50%;
+    width: 60%;
     margin-bottom: 20px;
     font-size: 2.2vmin;
     text-align: justify;
 }
 
+.w-content {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 .btn-welcome {
     display: flex;
-    margin-top: 3vmin;
+    margin: 3vmin 0;
     justify-content: center;
 }
 
