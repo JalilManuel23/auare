@@ -45,6 +45,14 @@ h1 {
     padding-top: 4vmin;
 }
 
+.m-t-5{
+    margin-top: 3vmin;
+}
+
+.m-t-8 {
+    margin-top: 8vmin;
+}
+
 .p-5 {
     padding: 5vmin;
 }
@@ -410,7 +418,7 @@ img {
 /*  Sección main */
 .main-container {
     display: flex;
-    /* margin-top: 2rem; */
+    /* margin-top: 4rem; */
 }
 
 .img-main {
@@ -424,7 +432,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 6vmin;
+    margin-top: 8vmin;
 }
 
 .main-content h2 {
@@ -433,7 +441,7 @@ img {
 
 .bottom-info {
     display: flex;
-    margin-top: 3vmin;
+    padding-bottom: 3vmin;
     justify-content: center;
 }
 
@@ -731,7 +739,7 @@ img {
 }
 
 .video {
-    width: 60%;
+    width: 80%;
 }
 
 .videos-youtube {
@@ -812,6 +820,11 @@ footer {
     padding: 3vmin 0;
     justify-content: space-around;
     margin-top: 8vmin;
+}
+
+.social, .info {
+    font-family: 'ChronicaBook';
+    font-size: 16px;
 }
 
 footer img {
@@ -1043,4 +1056,8 @@ footer img {
 .form-consultoria {
     background: transparent;
     border: 1px solid #ccc;
+}
+
+.newsletter {
+    width: 30%;
 }
