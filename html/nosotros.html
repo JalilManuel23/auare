@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/fonts.css">
     <title>Nosotros Auare</title>
 </head>
 
@@ -22,7 +23,7 @@
         </div>
         <ul class="bar-menu-container container p-t-10">
             <li class="li-cliente">
-                <a href="#">Soy cliente</a>
+                <a href="#" class="f-chr-bold menu-op">INICIA SESIÓN</a>
             </li>
             <li>
                 <a href="#">
@@ -30,31 +31,30 @@
                 </a>
             </li>
             <li>
-                <span onclick="openNav()" class="pointer">MENÚ</span>
+                <span onclick="openNav()" class="pointer menu-op">MENÚ</span>
             </li>
-            <a class="menu-icon pointer" onclick="openNav()"><img class="menu-icon" src="img/MENU1_AUARE.png" alt="menu"></a>
+            <a class="menu-icon pointer" onclick="openNav()"><img class="menu-icon" src="img/MENU1_AUARE.png"
+                    alt="menu"></a>
         </ul>
     </header> 
     <div class="nosotros main">
-        <div class="container d-flex">
-            <h1 class="f-chr-thin blue-2 nosotros-servicio-title p-t-5">NOSOTROS</h1>
+        <div class="container d-flex nosotros-content">
+            <h1 class="f-fix-thin blue-2 nosotros-servicio-title p-t-5">NOSOTROS</h1>
 
             <div class="min-container">
-                <h2 class="f-chr-thin xlarge p-tb-s blue-2 desc-nosotros">
-                    SOMOS UN ESTUDIO DE
-                    ARQUITECTURA Y DESARROLLO DE
-                    INFRAESTRUCTURA PARA LA SALUD.
+                <h2 class="f-fix-regular lh-26 tam-24 blue-2 desc-nosotros">
+                    AUARE es un estudio especializado en arquitectura y desarrollo de infraestrucura para la salud creado y basado en la ciudad de Monterrey, Nuevo León.
                 </h2>
-                <p class="quote f-chr-regular gray">
-                    "Fue durante los últimos años de la década pagraysada,
+                <p class="quote f-chr-book tam-18 gray lh-25">
+                    "Fue durante los últimos años de la década pasada,
                     que dimos cuenta de las inaplazables necesidades de
-                    bienestar de las personas y del gran reto que esto
+                    bienestar de las personas y del gran reto que esto 
                     significaba para diversos actores del sistema nacional
                     de salud que buscan garantizar el acceso de las
                     personas a más y mejores servicios de salud. Nosotros
                     decidimos ser parte de esa búsqueda". -AUARE
                 </p>
-                <p class="proposito f-chr-bold gray small">
+                <p class="proposito f-chr-bold tam-18 lh-25 gray">
                     Nuestro propósito es producir soluciones integrales de diseño,
                     planeación e información del espacio; pensadas para mejorar las
                     condiciones y experiencias de las personas que lo habitan.
@@ -65,8 +65,11 @@
 
             </div>
 
-            <footer class="f-chr-thin blue-1 p-5">
-                <img src="../img/PIE DE PÁGINA_AUARE.png" alt="footer">
+            <footer class="f-chr-thin blue-1 footer">
+                <div>
+                    <img src="../img/PIE DE PÁGINA_AUARE.png" alt="footer">
+                    <p class="info">&copy;2021 AUARE</p>
+                </div>
                 <div class="social">
                     <p>REDES SOCIALES</p>
                     <ul>

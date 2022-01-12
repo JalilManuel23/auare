@@ -102,7 +102,7 @@ img {
 
 .min-container {
     max-width: 1080px;
-    width: 60%;
+    width: 78%;
     /* margin: auto; */
 }
 
@@ -890,12 +890,21 @@ footer img {
 /* Nosotros */
 .nosotros-servicio-title {
     font-size: 15vmin;
+    margin-left: -10px;
+}
+
+.desc-nosotros {
+    padding: 2vmin 0;
 }
 
 .quote,
-.proposito {
+.proposito,
+.desc-nosotros {
     text-align: justify;
-    width: 90%;
+}
+
+.nosotros-content {
+    padding: 15vmin 10vmin;
 }
 
 @media (max-width: 768px) {
@@ -915,11 +924,11 @@ footer img {
     display: flex;
     justify-content: space-between;
     margin: 5vmin 0;
-    width: 80%;
+    width: 100%;
 }
 
 .servicio p {
-    width: 70%;
+    width: 90%;
 }
 
 .info-servicio {
@@ -931,6 +940,8 @@ footer img {
 
 .descrip-servicio {
     line-height: 1.2;
+    margin-top: 2vmin;
+    margin-bottom: 3vmin;
 }
 
 .descrip-servicio,
@@ -938,14 +949,28 @@ footer img {
     text-align: justify;
 }
 
+.p-servicio {
+    font-family: 'ChronicaBook';
+    font-size: 18px;
+    line-height: 22px;
+}
 
 .servicios-img {
-    width: 30%;
-    height: 100%;
+    /* width: 40%; */
+    height: 50vh;
 }
 
 .servicios-img-2{
-    width: 38%;
+    /* width: 100%; */
+    height: 53vh;
+}
+
+.servicios-img, .servicios-img-2 {
+    margin-left: 6vmin;
+}
+
+.lista-servicios {
+    margin-top: 6vmin;
 }
 
 @media (max-width: 768px) {
@@ -991,6 +1016,8 @@ footer img {
 .lista-consultoria {
     padding: 0;
     list-style: square;
+    margin-left: 15px;
+    margin-top: -18px;
 }
 
 /* Menú */

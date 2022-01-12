@@ -117,7 +117,7 @@
 }
 
 .tam-30 {
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .tam-40 {
@@ -159,12 +159,16 @@
     line-height: 18px;
 }
 
+.lh-25 {
+    line-height: 22px;
+}
+
 .lh-26 {
-    line-height: 60px;
+    line-height: 30px;
 }
 
 .lh-36 {
-    line-height: 60px;
+    line-height: 34px;
 }
 .lh-46 {
     line-height: 45px;
@@ -247,4 +251,10 @@
 
 .white {
     color: #FFF;
+}
+
+.info-servicio h2 {
+    font-family: 'FixtureExpandedSemiBold';
+    font-size: 6vmin;
+    letter-spacing: 4.7px;
 }
