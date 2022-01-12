@@ -138,6 +138,19 @@ img {
     background: transparent;
 }
 
+.accordion-button {
+    font-family: 'ChronicaBook';
+    font-size: 18px;
+    padding-left: 8vmin;
+}
+
+.accordion-body {
+    font-family: 'ChronicaBook';
+    font-size: 16px;
+    line-height: 23px;
+    padding-left: 8vmin;
+}
+
 .accordion-button:active {
     background: transparent;
 }
@@ -866,10 +879,18 @@ footer img {
 }
 
 .faq-title {
-    padding: 5vmin;
-    font-size: 15vmin;
+    margin-left: 8vmin;
+    font-size: 18vmin;
     font-weight: bolder;
     color: white;
+    margin-top: 12vmin;
+    margin-bottom: vmin;
+}
+
+.btn-faq {
+    padding-top: 6vmin;
+    justify-content: flex-start;
+    padding-left: 8vmin;
 }
 
 @media (max-width: 400px) {
@@ -885,6 +906,7 @@ footer img {
 
 .accordion-button {
     border-bottom: 1px solid #8d8d8d;
+
 }
 
 /* Nosotros */
