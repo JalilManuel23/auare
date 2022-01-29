@@ -435,9 +435,11 @@ img {
 }
 
 .img-main {
-    /* width: 40%; */
-    height: 62vh;
-    margin: 0 3rem 0 1rem;
+    width: 150rem;
+    margin-left: -20vh;
+    /* height: 200%; */
+    /* height: 62vh; */
+    /* margin: 0 3rem 0 1rem; */
 }
 
 .main-content {
@@ -446,6 +448,7 @@ img {
     flex-direction: column;
     justify-content: center;
     margin-top: 8vmin;
+    margin-left: -50vmin;
 }
 
 .main-content h2 {
@@ -1100,6 +1103,7 @@ footer img {
 
 .airtable-embed {
     width: 500px;
+    background: transparent;
 }
 
 .form-consultoria {
