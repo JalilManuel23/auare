@@ -96,7 +96,7 @@ img {
 
 .container-2 {
     max-width: 1080px;
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
@@ -435,20 +435,20 @@ img {
 }
 
 .img-main {
-    width: 150rem;
-    margin-left: -20vh;
+    width: 155rem;
+    margin-left: -40vh;
     /* height: 200%; */
     /* height: 62vh; */
     /* margin: 0 3rem 0 1rem; */
 }
 
 .main-content {
-    /* width: 45%; */
+    /* width: 99%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 8vmin;
-    margin-left: -50vmin;
+    margin-left: -70vmin;
 }
 
 .main-content h2 {
