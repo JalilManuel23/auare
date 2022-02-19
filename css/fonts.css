@@ -121,7 +121,7 @@
 }
 
 .tam-40 {
-    font-size: 40px;
+    font-size: 2rem;
 }
 
 .tam-45 {
@@ -146,7 +146,21 @@
 }
 
 .tam-243 {
-    font-size: 170px;
+    /*font-size: 170px;*/
+    font-size: 23vmin;
+}
+
+@media (max-width: 1400px) {
+    .tam-16 {
+        font-size: 0.6rem;
+    }
+    .tam-18 {
+        font-size: 0.8rem;
+    }
+
+    .tam-50 {
+        font-size: 2.4rem;
+    }
 }
 
 
@@ -179,7 +193,17 @@
 }
 
 .lh-84 {
-    line-height: 60px;
+    line-height: 6vmin;
+}
+
+@media (max-width: 1400px) {
+    .lh-60 {
+        line-height: 45px;
+    }
+
+    .lh-84 {
+        line-height: 8vmin;
+    }
 }
 
 /* Separación */
@@ -190,7 +214,7 @@
     letter-spacing: 13px;
 }
 .s-100 {
-    letter-spacing: 3px;
+    letter-spacing: 1.5px;
 }
 .s-135 {
     letter-spacing: 3px;
@@ -224,9 +248,15 @@
     letter-spacing: 2px;
 }
 
+@media (max-width: 1400px) {
+    .menu-op {
+        font-size: 12px;
+    }
+}
+
 .titulos {
     font-family: 'FixtureExpandedRegular';
-    font-size: 48px;
+    font-size: 6vmin;
 }
 
 .subtitulos {
@@ -236,6 +266,16 @@
     text-transform: uppercase;
     color: #102a91;
     margin-top: 1vmin;
+}
+
+@media (max-width: 1400px) {
+    .titulos {
+        font-size: 7vmin;
+    }
+
+    .subtitulos {
+        font-size: 13px;
+    }
 }
 
 .paso h2 {

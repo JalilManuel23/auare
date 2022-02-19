@@ -71,7 +71,7 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #2e47ae;
+    color: #001326;
 }
 
 .btn:hover {
@@ -269,7 +269,7 @@ img {
 }
 
 .portada {
-    background: #011329;
+    background: #001326;
 }
 
 .portada video {
@@ -286,13 +286,21 @@ img {
     justify-content: space-around;
 }
 
+@media (max-width: 1400px) {
+    .main {
+        padding-top: 10vh;
+    }
+}
+
 .welcome,
 .recibe,
-.pasos,
-.espacio,
-.foot {
+.pasos {
     min-height: 100vh;
     max-height: 100vh;
+}
+
+.espacio, .foot {
+    min-height: 100vh;
 }
 
 .main,
@@ -316,9 +324,18 @@ img {
 .header {
     display: flex;
     justify-content: space-between;
-    padding-top: 3vmin;
+    padding-top: 2.5vmin;
 }
 
+.hola {
+    margin-left: 0;
+}
+
+@media (max-width: 1400px) {
+    .hola {
+        margin-left: 10vmin;
+    }
+}
 
 .header h1 {
     width: 70%;
@@ -465,6 +482,13 @@ img {
     padding-top: 0;
 }
 
+@media (max-width: 1400px) {
+    .main-content {
+        margin-top: 0;
+        margin-left: -80vmin;
+    }
+}
+
 .bottom-info {
     display: flex;
     padding-bottom: 3vmin;
@@ -475,12 +499,17 @@ img {
     word-spacing: 10px;
 }
 
+@media (max-width: 1400px) {
+    .main-content {
+        margin-top: 0;
+    }
+}
 
-@media (min-width: 1440px) {
+/* @media (min-width: 1440px) {
     .main-content {
         margin-bottom: 10vmin;
     }
-}
+} */
 
 @media (max-width: 768px) {
     .img-main {
@@ -534,9 +563,15 @@ img {
 
 .p-welcome p {
     width: 60%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 2.2vmin;
     text-align: justify;
+}
+
+@media (max-width: 1400px) {
+    .p-welcome p {
+        width: 46%;
+    }
 }
 
 .w-content {
@@ -550,6 +585,10 @@ img {
     display: flex;
     margin: 3vmin 0;
     justify-content: center;
+}
+
+.hola {
+    padding-left: 12vmin;
 }
 
 @media (max-width: 768px) {
@@ -592,10 +631,24 @@ img {
 
 .producto p {
     font-family: 'ChronicaBook';
-    font-size: 18px;
+    /* font-size: vmin; */
     line-height: 16px;
     text-align: justify;
     color: #0e2e8f;
+}
+
+@media (max-width: 1400px) {
+    .producto p {
+        font-size: 2vmin;
+    }
+
+    .producto img {
+        height: 42vh;
+    }
+
+    .producto .img-2-pr {
+        height: 43.7vh;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -603,9 +656,9 @@ img {
         margin-top: 5vmin;
     }
 
-    .producto p {
+    /* .producto p {
         font-size: 1.6vmin;
-    }
+    } */
 
     .large8 {
         font-size: 6vmin;
@@ -639,6 +692,11 @@ img {
     margin-top: 2vmin;
 }
 
+@media (max-width: 1400px) {
+    .proceso-img {
+        margin-top: 0;
+    }
+}
 
 .proceso {
     display: flex;
@@ -694,6 +752,7 @@ img {
 
 .contenido-espacio {
     display: flex;
+    padding-bottom: 7vmin;
 }
 
 .noticias {
@@ -756,6 +815,13 @@ img {
     width: 95%;
 }
 
+@media (max-width: 1400px) {
+    .proyecto-img {
+        width: 80%;
+        height: 250px;
+    }
+}
+
 .proyectos-youtube {
     width: 60%;
 }
@@ -776,6 +842,14 @@ img {
 
 .flecha-youtube {
     height: 5vh;
+}
+
+@media (max-width: 1400px) {
+    .video {
+        width: 60%;
+    }
+
+    
 }
 
 @media (max-width: 768px) {
@@ -799,6 +873,7 @@ img {
 /* Sección foot */
 .h-foot {
     justify-content: flex-end;
+    margin-top: 20vmin;
 }
 
 .foot-cont {
@@ -813,7 +888,16 @@ img {
     text-align: center;
     font-size: 5vmin;
     font-weight: 300;
+    width: 90%;
 }
+
+
+@media (max-width: 1400px) {
+    .txt-foot {
+        margin-top: 4vmin;
+    }
+}
+
 
 .newsletter {
     width: 20%;
@@ -847,6 +931,14 @@ footer {
     justify-content: space-around;
     margin-top: 8vmin;
 }
+
+
+@media (max-width: 1400px) {
+    footer {
+        padding: 1vmin 0;
+    }
+}
+
 
 .social, .info {
     font-family: 'ChronicaBook';
