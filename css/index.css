@@ -133,6 +133,12 @@ img {
     }
 }
 
+@media (max-width: 1300px) {
+    .container-2 {
+        padding-left: 0;
+    }
+}
+
 .accordion-item,
 .accordion-button {
     background: transparent;
@@ -293,14 +299,17 @@ img {
 }
 
 .welcome,
-.recibe,
 .pasos {
     min-height: 100vh;
     max-height: 100vh;
 }
 
-.espacio, .foot {
+.espacio, .foot, .recibe {
     min-height: 100vh;
+}
+
+.recibe {
+    height: 100%;
 }
 
 .main,
@@ -351,7 +360,6 @@ img {
     }
 
     .welcome,
-    .recibe,
     .pasos,
     .espacio,
     .foot,
@@ -499,9 +507,9 @@ img {
     word-spacing: 10px;
 }
 
-@media (max-width: 1400px) {
-    .main-content {
-        margin-top: 0;
+@media (max-width: 1300px) {
+    .bottom-info p {
+        word-spacing: 2px;
     }
 }
 
@@ -511,11 +519,7 @@ img {
     }
 } */
 
-@media (max-width: 768px) {
-    .img-main {
-        width: 50%;
-    }
-
+@media (max-width: 1300px) {
     .main-container {
         flex-direction: column;
         align-items: center;
@@ -524,12 +528,28 @@ img {
         text-align: center;
     }
 
+    .main-content, .img-main {
+        margin: 0;
+        padding: 0;
+    }
+
+    .img-main {
+        padding: 2px;
+        width: 30rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-main {
+        width: 50%;
+    }
+
     .main-container h2 {
         padding: 8vh 0;
     }
 
     .main-content {
-        width: 100%;
+        /* width: 100%; */
     }
 
     .bottom-info {
@@ -543,6 +563,12 @@ img {
     .img-main {
         margin: 0;
         padding-bottom: 8vmin;
+    }
+}
+
+@media (max-width: 400px) {
+    .img-main {
+        width: 80vh;
     }
 }
 
@@ -574,9 +600,13 @@ img {
     }
 }
 
+
+
+
+
 .w-content {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     flex-direction: column;
     justify-content: space-around;
 }
@@ -604,6 +634,9 @@ img {
         width: 100%;
         font-size: 4vmin;
     }
+    .hola {
+        padding-left: 0;
+    }
 }
 
 /* Sección productos -recibe- */
@@ -628,6 +661,8 @@ img {
 .producto .img-2-pr {
     height: 47vh;
 }
+
+
 
 .producto p {
     font-family: 'ChronicaBook';
@@ -684,6 +719,10 @@ img {
 
     .producto img {
         height: 20vh;
+    }
+
+    .productos p {
+        font-size: 4vmin;
     }
 }
 
@@ -1113,6 +1152,10 @@ footer img {
 
     .servicios-img {
         width: 50%;
+    }
+
+    .producto .img-2-pr {
+        height: 20vh;
     }
 }
 

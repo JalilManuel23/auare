@@ -163,6 +163,27 @@
     }
 }
 
+@media (max-width: 1300px) {
+    .tam-50 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .tam-50 {
+        font-size: 1.5rem;
+    }
+
+    .tam-40 {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .tam-50 {
+        font-size: 1rem;
+    }
+}
 
 /* Line height */
 .lh-22 {
@@ -203,6 +224,18 @@
 
     .lh-84 {
         line-height: 8vmin;
+    }
+}
+
+@media (max-width: 1300px) {
+    .lh-60 {
+        line-height: 35px;
+    }
+}
+
+@media (max-width: 650px) {
+    .lh-60 {
+        line-height: 30px;
     }
 }
 
@@ -271,6 +304,16 @@
 @media (max-width: 1400px) {
     .titulos {
         font-size: 7vmin;
+    }
+
+    .subtitulos {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 800px) {
+    .titulos {
+        font-size: 6vmin;
     }
 
     .subtitulos {
