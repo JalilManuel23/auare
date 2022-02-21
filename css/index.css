@@ -360,7 +360,6 @@ img {
     }
 
     .welcome,
-    .pasos,
     .espacio,
     .foot,
     .faq,
@@ -369,7 +368,13 @@ img {
         min-height: 100vh;
         max-height: 100%;
     }
+
+    .proceso {
+        padding-top: 15vmin;
+    }
 }
+
+
 
 .btn {
     padding: 2.3vmin 5vmin;
@@ -762,6 +767,14 @@ img {
         width: 30%;
         text-align: center;
     }
+
+    .pasos .container .header div {
+        padding-top: 12vmin;
+    }
+
+    .pasos .container .header div h1 {
+        padding-bottom: 3vmin;
+    }
 }
 
 @media (max-width: 400px) {
@@ -861,8 +874,18 @@ img {
     }
 }
 
+
 .proyectos-youtube {
     width: 60%;
+}
+@media (max-width: 768px) {
+    .proyecto-img, .proyectos, .proyectos-youtube {
+        width: 100%;
+    }
+
+    .flecha-derecha {
+        display: none;
+    }
 }
 
 .youtube {
@@ -937,7 +960,6 @@ img {
     }
 }
 
-
 .newsletter {
     width: 20%;
     display: flex;
@@ -956,7 +978,7 @@ img {
 
 @media (max-width: 768px) {
     .newsletter {
-        width: 40%;
+        width: 100%;
         text-align: center;
     }
 }
@@ -1257,5 +1279,6 @@ footer img {
 }
 
 .newsletter {
-    width: 30%;
+    width: 80%;
+    padding: 8vmin;
 }
